@@ -63,7 +63,7 @@ const AvailableMeals = () => {
 
   return (
     <section className={classes.meals}>
-      <Card>{isloading ? <p>Loading...</p> : <ul>{mealsList}</ul>}</Card>
+      <Card><ul>{mealsList}</ul></Card>
     </section>
   );
 };
