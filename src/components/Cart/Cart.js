@@ -45,7 +45,6 @@ const Cart = (props) => {
     setDidSubmit(true);
   };
 
-
   const cartItems = (
     <ul className={classes['cart-items']}>
       {cartCtx.items.map((item) => (
